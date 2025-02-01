@@ -9,9 +9,10 @@ const Home = () => {
             <Header />
             <div className="main-content">
                 <h2>Перевір свій сертифікат</h2>
-                <p>
-                    Перевір свій підпис тут і зараз. Просто вводь код та отримуй усю детальну інформацію по своїй фігурці
-                </p>
+                <div className="p-text">
+                    <p>Перевір свій сертифікат тут і зараз.</p>
+                    <p>Просто вводь код та отримуй усю детальну інформацію по своїй фігурці</p>
+                </div>
                 <form className="search-form">
                     <input type="text" placeholder="Введіть код..."></input>
                     <button type="submit">Пошук</button>
