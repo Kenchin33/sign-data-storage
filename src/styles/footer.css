@@ -1,6 +1,8 @@
 .footer{
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     background-color: #6a0dad;
     color: white;
     position: fixed;
@@ -8,14 +10,16 @@
     width: 100%;
 }
 
-.instagram-footer-link{
+.instagram-footer-link img, .telegram-footer-link img{
     width: 30px;
     height: 30px;
     cursor: pointer;
 }
 
+.instagram-footer-link{
+    margin-right: 15px;
+}
+
 .telegram-footer-link{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+    margin-left: 15px;
 }

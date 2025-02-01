@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/footer.css';
-import instagramLogo from '../img/instagram.png'
+import instagramLogo from '../img/instagram_icon.png'
 import telegramLogo from '../img/telegram.png'
 
 const Footer = () => {
