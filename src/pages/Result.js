@@ -9,7 +9,8 @@ const Result = () => {
     const {code} = useParams();
     const [figure, setFigure] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [isCharVisible, setIsCharVisible] = useState(false)
+    const [isCharVisible, setIsCharVisible] = useState(false);
+    const [fullScreenImage, setFullScreenImage] = useState(null);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -46,14 +47,24 @@ const Result = () => {
         setIsCharVisible(!isCharVisible)
     }
 
+    const openFullScrenn = (imageUrl) => {
+        setFullScreenImage(imageUrl);
+    }
+
+    const closeFullScreen = () => {
+        setFullScreenImage(null);
+    }
+
     return(
         <div className='results'>
             <Header />
             <div className='main-content'>
                 {figure && (
                     <>
-                        <img src={figure.imageUrl1} alt={figure.name} className='figure-image'></img>
-                        <img src={figure.imageUrl2} alt={figure.name} className='figure-image'></img>
+                        <div className='image-container'>
+                            <img src={figure.imageUrl1} alt={figure.name} className='figure-image' onClick={() => openFullScrenn(figure.imageUrl1)}></img>
+                            <img src={figure.imageUrl2} alt={figure.name} className='figure-image' onClick={() => openFullScrenn(figure.imageUrl2)}></img>
+                        </div>
                         <h2>{figure.name}</h2>
                         <p><strong>Номер Сертифікату:</strong> {figure.certificationCode}</p>
                         <p><strong>Підписав:</strong> {figure.actor}</p>
@@ -71,6 +82,12 @@ const Result = () => {
                 )}
             </div>
             <Footer />
+
+            {fullScreenImage && (
+                <div className='fullscreen-overlay' onClick={closeFullScreen}>
+                    <img src={fullScreenImage} alt='Full Screen' className='fullscreen-image'></img>
+                </div>
+            )}
         </div>
     )
 }
