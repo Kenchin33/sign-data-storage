@@ -70,3 +70,42 @@
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
+.toogle-char-btn{
+    color: #6a0dad;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.toogle-char-btn:hover{
+    color: #cc98ff
+}
+
+.item-char{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.item-char.open{
+    opacity: 1;
+}
+
+.item-char .char-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-char .char-list-item{
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.item-char .char-list-item:last-child{
+    border-bottom: none;
+}
