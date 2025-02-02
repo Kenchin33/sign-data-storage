@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sign-data-storage/static/css/main.b1c46a68.css",
-    "main.js": "/sign-data-storage/static/js/main.1460858c.js",
+    "main.js": "/sign-data-storage/static/js/main.0ada0a0b.js",
     "static/js/156.1cd1aaa2.chunk.js": "/sign-data-storage/static/js/156.1cd1aaa2.chunk.js",
     "static/media/logo.png": "/sign-data-storage/static/media/logo.5b7a362f2f922f9a1319.png",
     "static/media/mrplow2.jpg": "/sign-data-storage/static/media/mrplow2.56d0776d5ef96f8f73fb.jpg",
@@ -12,11 +12,11 @@
     "static/media/instagram_icon.png": "/sign-data-storage/static/media/instagram_icon.c72d65db3f1c6181cf27.png",
     "index.html": "/sign-data-storage/index.html",
     "main.b1c46a68.css.map": "/sign-data-storage/static/css/main.b1c46a68.css.map",
-    "main.1460858c.js.map": "/sign-data-storage/static/js/main.1460858c.js.map",
+    "main.0ada0a0b.js.map": "/sign-data-storage/static/js/main.0ada0a0b.js.map",
     "156.1cd1aaa2.chunk.js.map": "/sign-data-storage/static/js/156.1cd1aaa2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1c46a68.css",
-    "static/js/main.1460858c.js"
+    "static/js/main.0ada0a0b.js"
   ]
 }
