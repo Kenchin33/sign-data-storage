@@ -65,21 +65,60 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .main-content {
-      padding: 20px;
+        padding: 20px;
     }
-  
+
     .search-form {
-      flex-direction: column;
-      gap: 10px;
+        flex-direction: column;
+        gap: 10px;
     }
-  
+
     .search-form input {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .search-form button {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .image-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .figure-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content h2 {
+        font-size: 24px;
+    }
+
+    .main-content p {
+        font-size: 14px;
+    }
+
+    .toogle-char-btn {
+        font-size: 14px;
+    }
+
+    .item-char .char-list-item {
+        font-size: 14px;
+    }
+
+    .fullscreen-image {
+        max-width: 90vw;
+        max-height: 80vh;
+    }
+}
