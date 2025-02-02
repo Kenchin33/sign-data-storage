@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/sign-data-storage/static/css/main.c4a3d41d.css",
-    "main.js": "/sign-data-storage/static/js/main.09230662.js",
+    "main.js": "/sign-data-storage/static/js/main.327988a3.js",
     "static/js/156.1cd1aaa2.chunk.js": "/sign-data-storage/static/js/156.1cd1aaa2.chunk.js",
     "static/media/logo.png": "/sign-data-storage/static/media/logo.5b7a362f2f922f9a1319.png",
+    "static/media/mrplow2.jpg": "/sign-data-storage/static/media/mrplow2.56d0776d5ef96f8f73fb.jpg",
+    "static/media/hs1.jpg": "/sign-data-storage/static/media/hs1.fc9156a7a2588e96c9dd.jpg",
+    "static/media/mrplow1.jpg": "/sign-data-storage/static/media/mrplow1.06941258d4a0df84c012.jpg",
+    "static/media/hs2.jpg": "/sign-data-storage/static/media/hs2.831b5862bdc4e21d6d4e.jpg",
     "static/media/instagram.png": "/sign-data-storage/static/media/instagram.75e0546a6b5abe4c0506.png",
     "static/media/instagram_icon.png": "/sign-data-storage/static/media/instagram_icon.c72d65db3f1c6181cf27.png",
     "index.html": "/sign-data-storage/index.html",
     "main.c4a3d41d.css.map": "/sign-data-storage/static/css/main.c4a3d41d.css.map",
-    "main.09230662.js.map": "/sign-data-storage/static/js/main.09230662.js.map",
+    "main.327988a3.js.map": "/sign-data-storage/static/js/main.327988a3.js.map",
     "156.1cd1aaa2.chunk.js.map": "/sign-data-storage/static/js/156.1cd1aaa2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4a3d41d.css",
-    "static/js/main.09230662.js"
+    "static/js/main.327988a3.js"
   ]
 }
