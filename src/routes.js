@@ -6,7 +6,7 @@ import NotFound from "./pages/NotFound";
 
 const RoutesComponent = () => {
     return (
-        <Router>
+        <Router basename="/sign-data-storage">
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/result/:code" element={<Result />} />

@@ -94,6 +94,7 @@
     margin-bottom: 15px;
     font-size: 16px;
     transition: color 0.3s ease;
+    text-decoration: underline;
 }
 
 .toogle-char-btn:hover{
@@ -183,6 +184,10 @@
         max-width: 80vw;
         max-height: 80vh;
     }
+
+    .loader{
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -213,5 +218,9 @@
     .fullscreen-image {
         max-width: 90vw;
         max-height: 90vh;
+    }
+
+    .loader{
+        font-size: 30px;
     }
 }
