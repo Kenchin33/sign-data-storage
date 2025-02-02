@@ -21,6 +21,6 @@ export const fetchFigureData = (code) => {
             } else {
                 reject('Certificate not found');
             }
-        }, 1000);
+        }, 2000);
     });
 };
