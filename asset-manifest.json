@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/sign-data-storage/static/css/main.b1c46a68.css",
-    "main.js": "/sign-data-storage/static/js/main.a2a7cd8e.js",
+    "main.js": "/sign-data-storage/static/js/main.2e6fe443.js",
     "static/js/156.1cd1aaa2.chunk.js": "/sign-data-storage/static/js/156.1cd1aaa2.chunk.js",
-    "static/media/cm0001_1.jpg": "/sign-data-storage/static/media/cm0001_1.3cf500db08b749cc0e94.jpg",
-    "static/media/sg0001_1.jpg": "/sign-data-storage/static/media/sg0001_1.f88ce83cd20bda0bed60.jpg",
-    "static/media/sg0001_2.jpg": "/sign-data-storage/static/media/sg0001_2.0755c7c23d61e62c216d.jpg",
-    "static/media/cm0001_2.jpg": "/sign-data-storage/static/media/cm0001_2.96bf922fcc9c728e951f.jpg",
     "static/media/logo.png": "/sign-data-storage/static/media/logo.5b7a362f2f922f9a1319.png",
     "static/media/hs0002_2.jpg": "/sign-data-storage/static/media/hs0002_2.56d0776d5ef96f8f73fb.jpg",
     "static/media/hs0001_1.jpg": "/sign-data-storage/static/media/hs0001_1.fc9156a7a2588e96c9dd.jpg",
     "static/media/hs0002_1.jpg": "/sign-data-storage/static/media/hs0002_1.06941258d4a0df84c012.jpg",
+    "static/media/sg0001_1.jpg": "/sign-data-storage/static/media/sg0001_1.37333b4642769e5f0f84.jpg",
+    "static/media/cm0001_1.jpg": "/sign-data-storage/static/media/cm0001_1.f03888d6e484cb071113.jpg",
     "static/media/hs0001_2.jpg": "/sign-data-storage/static/media/hs0001_2.831b5862bdc4e21d6d4e.jpg",
+    "static/media/sg0001_2.jpg": "/sign-data-storage/static/media/sg0001_2.d6cf9254c2459157b4c6.jpg",
+    "static/media/cm0001_2.jpg": "/sign-data-storage/static/media/cm0001_2.14f9756926b8d4d7f51f.jpg",
     "static/media/instagram.png": "/sign-data-storage/static/media/instagram.75e0546a6b5abe4c0506.png",
     "static/media/instagram_icon.png": "/sign-data-storage/static/media/instagram_icon.c72d65db3f1c6181cf27.png",
     "index.html": "/sign-data-storage/index.html",
     "main.b1c46a68.css.map": "/sign-data-storage/static/css/main.b1c46a68.css.map",
-    "main.a2a7cd8e.js.map": "/sign-data-storage/static/js/main.a2a7cd8e.js.map",
+    "main.2e6fe443.js.map": "/sign-data-storage/static/js/main.2e6fe443.js.map",
     "156.1cd1aaa2.chunk.js.map": "/sign-data-storage/static/js/156.1cd1aaa2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1c46a68.css",
-    "static/js/main.a2a7cd8e.js"
+    "static/js/main.2e6fe443.js"
   ]
 }
