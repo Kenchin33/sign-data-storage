@@ -70,7 +70,7 @@ const Result = () => {
                         <p><strong>Підписав:</strong> {figure.actor}</p>
                         <p><strong>Фраза:</strong> <em>{figure.phrase}</em></p>
                         <p><strong>Дата Підпису:</strong> {figure.signatureDate}</p>
-                        <p className="toogle-char-btn" onClick={tooggleCharVisibility}>{isCharVisible ? "Закрити Характеристики" : "Відкрити характеристики"}</p>
+                        <p className="toogle-char-btn" onClick={tooggleCharVisibility}>{isCharVisible ? "Закрити Додаткову Інформацію" : "Відкрити Додаткову Інформацію"}</p>
                         <div className={`item-char ${isCharVisible ? "open" : ""}`}>
                             <ul className="char-list">
                                 <li className="char-list-item"><em>Тип фігурки:</em> {figure.figureType}</li>
